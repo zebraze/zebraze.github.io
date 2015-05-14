@@ -1,0 +1,11 @@
+<script src="javascript/mustache.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script id="content" type="text/html">
+    Lambda
+</script>
+<script>
+var data = {"content": $('#content').html()};
+$.get("template.html", function(template) {
+    document.write(Mustache.render(template, data));
+});
+</script>

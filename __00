@@ -6,9 +6,9 @@
 <title>Joanna Bresee Portfolio</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/color-light.css" type="text/css" media="screen" />
-<link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight,light,regular,bold' rel='stylesheet' type='text/css' /> 
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight,light,regular,bold' rel='stylesheet' type='text/css' /> 
 
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 <script type="text/javascript" src="javascript/custom.js"></script>
 
 
@@ -150,26 +150,19 @@ if (document.location.hash){
 		
 			<ul>	
 		
-			    <li class="col3 web">
-					<a href="messaging.html"><img src="images/messaging10.jpg" width="300" height="180" alt="" class="shadow" /></a>
-						<div class="portfolio-thumbnail-info">
-							<h3 class="title"><a href="messaging.html">Outlook.com</a></h3>
-						<!--	<p>Chat application for Outlook.com.</p> --!>
-						</div><!--END portfolio-thumbnail-info-info--> 
-				</li>
 				<li class="col3 web">
 					<a href="conveyance.html"><img src="images/frestrum.png" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
-							<h3 class="title"><a href="conveyance.html">NASA Planning Tool</a></h3>
-						<!--		<p>Application that helps scientists plan activities for a lunar rover.</p> --!>
+							<h3 class="title"><a href="conveyance.html">Conveyance Planning Tool</a></h3>
+							<p>Application that helps scientists plan activities for a lunar rover.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 				
 				<li class="col3 web">
 					<a href="cofr.html"><img src="images/cofr.png" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
-							<h3 class="title"><a href="cofr.html">NASA Dashboard</a></h3>
-					<!--		<p>Dashboard that helps NASA engineers determine how close they are to meeting mission milestones.</p> --!>
+							<h3 class="title"><a href="cofr.html">Certification for Flight Readiness</a></h3>
+							<p>Dashboard that helps NASA engineers determine how close they are to meeting mission milestones.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 
@@ -179,7 +172,7 @@ if (document.location.hash){
 					<a href="poster.html"><img src="images/dylan4.jpg" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="poster.html">Poster Design</a></h3>
-							<!--			<p>Infographic and advertisement poster designs.</p> --!>
+							<p>Infographic and advertisement poster designs.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 				
@@ -187,6 +180,7 @@ if (document.location.hash){
 					<a href="funq.html"><img src="images/funqicon.png" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="funq/index.html">Fun Q</a></h3>
+							<p>Mobile application for traveling workers.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
                 
@@ -194,6 +188,7 @@ if (document.location.hash){
 					<a href="recipemanager.html"><img src="images/myrecipe.png" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="recipemanager.html">Recipe Manager</a></h3>
+							<p>Website that makes it easy for cooks to alter their recipes by offering substitution options.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
                 </li>
                       
@@ -201,6 +196,7 @@ if (document.location.hash){
 					<a href="paintings.html"><img src="images/portfolio-item-5.jpg" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="paintings.html">Paintings</a></h3>
+							<p>Collection of my paintings.</p>
 						</div>
                         
                       </li>
@@ -210,6 +206,7 @@ if (document.location.hash){
 					<a href="biology.html"><img src="images/biology.png" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="biology.html">Biology Research Project</a></h3>
+							<p>Interviewed biologists to learn about how they gather information related to their research.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 				
@@ -217,6 +214,7 @@ if (document.location.hash){
 					<a href="newsletter.html"><img src="images/document.jpg" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="newsletter.html">Newsletter</a></h3>
+							<p>I redesigned a neighborhood newsletter to be more welcoming, readable, and fun.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 				
@@ -226,12 +224,14 @@ if (document.location.hash){
 					<a href="documentdesign.html"><img src="images/document2.jpg" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="documentdesign.html">Document Design</a></h3>
+							<p>A rule system to present the article "Matthew Carter's life in type design".</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 					<li class="col3 research">
 					<a href="privacy.html"><img src="images/portfolio-item-3.jpg" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="privacy.html">Privacy Label</a></h3>
+							<p>Displays privacy policy information in a clear way.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
                 
@@ -239,6 +239,7 @@ if (document.location.hash){
 					<a href="magazine.html"><img src="images/teaicon.jpg" width="300" height="180" alt="" class="shadow" /></a>
 						<div class="portfolio-thumbnail-info">
 							<h3 class="title"><a href="magazine.html">Magazine Layout</a></h3>
+							<p>Based on design system in Wired Magazine.</p>
 						</div><!--END portfolio-thumbnail-info-info--> 
 				</li>
 			</ul><!--END ul-->

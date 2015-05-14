@@ -1,0 +1,204 @@
+body {
+	background-color: #f4f3ec;
+	color: #878669;	
+}
+h1,h2,h3,h4,h5,h6{
+	text-shadow:0 1px 0 #fff;
+	color: #878669;		
+}
+.overline{
+	background-image: url(../images/bg-stripes-cream.gif);
+}
+.overline h1,.overline h2,.overline h3,.overline h4,.overline h5,.overline h6{
+	background-color: #f4f3ec;	
+}
+input, textarea {
+	background-color:#fdfcf5;
+	color:#B6B6A3;
+	border-top-color: #E8E7E1;
+	border-right-color: #E8E7E1;
+	border-bottom-color: #E8E7E1;
+	border-left-color: #E8E7E1;
+}
+input:focus, textarea:focus {
+	border: 1px solid #8DC5C5;
+}
+img.shadow {
+	-moz-box-shadow: 0 1px 3px #666666;
+	-webkit-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+}
+img.border {
+	background-image: url(../images/bg-stripes-cream.gif);
+}	
+.title a {
+	color: #878669;
+}
+#header {
+	background-image: url(../images/divider-border-cream.gif);
+	border-top-color: #B2B19D;	
+}
+.border-divider {
+	border-top-color: #D7D6CC;	
+}
+/***************************************************
+			DROPDOWN MENU
+***************************************************/
+.ddsmoothmenu ul li ul {
+	background-color: #fdfcf5;
+	-moz-box-shadow: 0 1px 3px #666;
+	-webkit-box-shadow: 0 1px 3px #666;
+	box-shadow: 0 1px 3px #666;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #efefef;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+}
+.ddsmoothmenu ul li a {
+	color: #BFBEAC;
+	text-shadow:0 1px 0 #fff;
+}
+.ddsmoothmenu ul li:hover, .ddsmoothmenu ul li.current {
+	border-bottom-color: #B2B19D;
+}
+.ddsmoothmenu ul li:hover a, .ddsmoothmenu ul li.current a {
+	color: #878669;	
+}
+.ddsmoothmenu ul li:hover ul li a {
+	color: #BFBEAC;
+}
+.ddsmoothmenu ul li ul li a:hover {
+	color: #878669;
+}
+/***************************************************
+				PORTFOLIO
+***************************************************/
+#portfolio-home .portfolio-thumbnail{
+	background-color: #fdfcf5;
+}
+#filterable li a {
+	text-shadow:0 1px 0 #fff;
+	color: #BFBEAC;
+}
+#filterable li.current a {
+	color: #878669;
+}
+/***************************************************
+		PORTFOLIO ITEM SLIDES PAGINATION
+***************************************************/
+.slides_container {
+	-moz-box-shadow: 0 1px 3px #666666;
+	-webkit-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+	background-image: url(../images/loading.gif);
+}
+.pagination li a {
+	background-color: #BFBFAE;
+}
+.pagination li a:hover, .pagination li.current a {
+	background-color: #878669;
+}
+/***************************************************
+			FOOTER WRAPPER
+***************************************************/
+#footer-wrapper {
+	background-color: #fff;
+}
+#footer {
+	border-top-color: #B2B19D;	
+}
+#footer a {
+	color: #A3A38B;
+}
+#copyright {
+	background-image: url(../images/bg-stripes-cream.gif);
+}
+/**************************************************
+				TABS AND ACCORDION
+***************************************************/
+.tabbed-content {
+	background-image: url(../images/bg-stripes-cream.gif);
+}
+ul.tabs {
+	background-color: #fdfcf5;
+	border-bottom-color: #DFDED7;	
+}
+ul.tabs li a {
+	color: #BFBEAC;	
+}
+ul.tabs li.active a {
+	color: #878669;		
+}
+.tab_content {
+	background-color: #fdfcf5;
+}
+.accordion li {
+	background-image: url(../images/bg-stripes-cream.gif);
+}
+.accordion a {
+	color: #878669;
+	background-color: #fdfcf5;
+	background-image: url(../images/bullets-toggle-light.gif);
+}
+.accordion li div {
+	display: block;
+	background-color: #fdfcf5;
+	border-top-color: #DFDED7;
+}
+/***************************************************
+			HOME PAGE NIVO SLIDER
+***************************************************/
+#slidernivo {
+	background-color: #FFFFFF;
+	-moz-box-shadow: 0 1px 3px #666666;
+	-webkit-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+	background-image: url(../images/loading.gif);
+}
+/***************************************************
+				POST ENTRY
+***************************************************/
+.block ul li a, .block a {
+	color: #878669;
+}
+.block li span, .block li span a, .block ul.inline li span {
+	color: #B6B6A3;
+}
+.post-entry {
+	border-bottom-color: #D7D6CC;
+}
+.post-meta, .post-meta a, .post-meta ul a  {
+	color: #878669;
+}
+.post-meta span {
+	color: #A3A38B;
+}
+.wp-pagenavi {
+	background-image: url(../images/bg-stripes-cream.gif);
+}
+.wp-pagenavi a, .wp-pagenavi a:link {
+	background-color: #f4f3ec;
+	color: #A8A8A8;
+}
+.tags a, a.tagsz-1, a.tagsz-2, a.tagsz-3, a.tagsz-4, a.tagsz-5{
+	color: #878669;
+	background-image: url(../images/bg-stripes-cream.gif);
+}
+.tags a:hover, a.tagsz-1:hover, a.tagsz-2:hover, a.tagsz-3:hover, a.tagsz-4:hover, a.tagsz-5:hover {	
+	color: #60604A;
+}
+.commentwrap .commentlist li .comment-meta {
+	border-bottom: 1px solid #D7D6CC;
+}
+.commentwrap .commentlist li .comment-meta a {
+	color: #878669;
+}
+.commentwrap .commentlist li p.reply a {
+	border-top: 1px solid #D7D6CC;
+}

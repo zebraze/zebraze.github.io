@@ -1,0 +1,211 @@
+body {
+	color: #7F7F7F;
+	background-color: #fff;		
+}
+h1,h2,h3,h4,h5,h6{
+	text-shadow:0 1px 0 #fff;
+}
+.overline{
+	background-image: url(../images/bg-stripes-light.gif);
+}
+.overline h1,.overline h2,.overline h3,.overline h4,.overline h5,.overline h6{
+	background-color: #fff;	
+}
+input, textarea {
+	background-color: #f7f7f7;
+	border-top-color: #EAEAEA;
+	border-right-color: #EAEAEA;
+	border-bottom-color: #EAEAEA;
+	border-left-color: #EAEAEA;
+	color: #999999;
+}
+input:focus, textarea:focus {
+	border: 1px solid #8DC5C5;
+}
+img.shadow {
+	-moz-box-shadow: 0 1px 3px #666666;
+	-webkit-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+}	
+img.border {
+	background-image: url(../images/bg-stripes-light.gif);
+}
+.title a {
+	color: #7f7f7f;	
+}
+#header {
+	background-image: url(../images/divider-border-light.gif);
+	border-top-color: #CCCCCC;	
+}
+.border-divider {
+	border-top-color: #ebebeb;	
+}
+/***************************************************
+			DROPDOWN MENU
+***************************************************/
+.ddsmoothmenu ul li ul {
+	background-color: #FFFFFF;
+	-moz-box-shadow: 0 1px 3px #666;
+	-webkit-box-shadow: 0 1px 3px #666;
+	box-shadow: 0 1px 3px #666;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #efefef;
+	border-bottom-color: #efefef;
+	border-left-color: #efefef;
+}
+.ddsmoothmenu ul li a {
+	text-shadow:0 1px 0 #FFFFFF;
+	color: #AEAEAE;
+}
+.ddsmoothmenu ul li:hover, .ddsmoothmenu ul li.current {
+	border-bottom-color: #A3A3A3;
+}
+.ddsmoothmenu ul li:hover a, .ddsmoothmenu ul li.current a {
+	color: #666666;		
+}
+.ddsmoothmenu ul li:hover ul li a {
+	color: #AEAEAE;
+}
+.ddsmoothmenu ul li ul li a:hover {
+	color: #6F6F6F;
+}
+/***************************************************
+				PORTFOLIO
+***************************************************/
+#portfolio-home .portfolio-thumbnail{
+	background-color: #f7f7f7;
+}
+#filterable li a {
+	text-shadow:0 1px 0 #FFFFFF;
+	color: #AEAEE;
+}
+#filterable li.current a {
+	color: #666666;
+	font-weight:bold;
+}
+/***************************************************
+		PORTFOLIO ITEM SLIDES PAGINATION
+***************************************************/
+.slides_container {
+	-moz-box-shadow: 0 1px 3px #666666;
+	-webkit-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+	background-image: url(../images/loading.gif);
+}
+.pagination li a {
+	background-color: #CCCCCC;
+}
+.pagination li a:hover, .pagination li.current a {
+	background-color: #666666;
+}
+/***************************************************
+			FOOTER WRAPPER
+***************************************************/
+#footer-wrapper {
+	background-color: #f7f7f7;
+}
+#footer {
+	border-top-color: #CCCCCC;
+}
+#footer a {
+	color: #999999;
+}
+
+#footer a:hover{
+	color: #7cc0cb;
+}
+#copyright {
+	background-image: url(../images/bg-stripes-light.gif);
+}
+/**************************************************
+				TABS AND ACCORDION
+***************************************************/
+.tabbed-content {
+	background-image: url(../images/bg-stripes-light.gif);
+}
+ul.tabs {
+	background-color: #f7f7f7;
+	border-bottom-color: #DBDBDB;		
+}
+ul.tabs li a {
+	color: #AEAEAE;
+}
+ul.tabs li.active a {
+	color: #666666;		
+}
+.tab_container{
+	background-image: url(../images/bg-stripes-light.gif);
+}
+.tab_content {
+	background-color: #f7f7f7;
+}
+.accordion li {
+	background-image: url(../images/bg-stripes-light.gif);
+}
+.accordion a {
+	color: #999999;
+	background-color: #f7f7f7;
+	background-image: url(../images/bullets-toggle-light.gif);
+}
+.accordion li div {
+	display: block;
+	background-color: #f7f7f7;
+	border-top-color: #DBDBDB;
+}
+/***************************************************
+			HOME PAGE NIVO SLIDER
+***************************************************/
+#slidernivo {
+	background-color: #FFFFFF;
+	-moz-box-shadow: 0 1px 3px #666666;
+	-webkit-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+	background-image: url(../images/loading.gif);
+}
+/***************************************************
+			BLOG
+***************************************************/
+.block ul li a, .block a {
+	color: #7f7f7f;
+}
+.block li span, .block li span a, .block ul.inline li span {
+	color: #999999;
+}
+.post-entry {
+	border-bottom-color: #ebebeb;
+}
+.post-meta, .post-meta a, .post-meta ul a  {
+	color: #7f7f7f;
+}
+.post-meta span {
+	color: #999999;
+}
+.wp-pagenavi {
+	background-image: url(../images/bg-stripes-light.gif);
+}
+.wp-pagenavi a, .wp-pagenavi a:link {
+	background-color: #fff;
+	color: #A8A8A8;
+}
+.tags a, a.tagsz-1, a.tagsz-2, a.tagsz-3, a.tagsz-4, a.tagsz-5{
+	color: #666666;
+	background-image: url(../images/bg-stripes-light.gif);
+}
+.tags a:hover, a.tagsz-1:hover, a.tagsz-2:hover, a.tagsz-3:hover, a.tagsz-4:hover, a.tagsz-5:hover {	
+	color: #333333;
+}
+.commentwrap .commentlist li .comment-meta {
+	border-bottom: 1px solid #ebebeb;
+}
+.commentwrap .commentlist li .comment-meta a {
+	color: #7f7f7f;
+}
+.commentwrap .commentlist li p.reply a {
+	border-top: 1px solid #ebebeb;
+}
